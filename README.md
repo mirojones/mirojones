@@ -7,8 +7,8 @@ My name's Miro Jones. I live in Bermagui, a small seaside town in ~~New South Wa
 ### Languages:
 
 - Markdown
-
-Learning:
 - HTML
 - CSS
+
+Learning:
 - JavaScript
