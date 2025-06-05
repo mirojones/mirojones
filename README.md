@@ -9,8 +9,10 @@
 
 Hi! My name's Miro. I live in Bermagui, a small seaside town in ~~New South Wales~~, ~~Australia~~.
 
-### Languages:
-- <abbr title="Hypertext Markup Language">HTML</abbr>
-- <abbr title="Cascading Style Sheets">CSS</abbr>
-- JavaScript
-- <abbr title="Scalable Vector Graphics">SVG</abbr>
+### Languages & tools:
+- <abbr title="Hypertext Markup Language">HTML</abbr> - advanced
+- <abbr title="Scalable Vector Graphics">SVG</abbr> - advanced
+- <abbr title="Cascading Style Sheets">CSS</abbr> - intermediate
+- JavaScript - intermediate
+- Atom & <abbr title="Really Simple Syndication">RSS</abbr> - intermediate
+- Jekyll - beginner
