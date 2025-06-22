@@ -16,3 +16,4 @@ Hi! My name's Miro. I live in Bermagui, a small seaside town in ~~New South Wale
 - JavaScript - intermediate
 - Atom & <abbr title="Really Simple Syndication">RSS</abbr> - intermediate
 - Jekyll - beginner
+- Astro - beginner
