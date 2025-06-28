@@ -11,7 +11,9 @@ Hi! My name's Miro. I live in Bermagui, a small seaside town in ~~New South Wale
 
 ### Skills
 
-<picture>
-  <source srcset="https://skillicons.dev/icons?i=js%2Chtml%2Ccss%2Cjs%2Csvg%2Castro&theme=light" media="(prefers-color-scheme: dark)">
-  <img src="https://skillicons.dev/icons?i=js,html,css,js,svg,astro">
-</picture>
+<p align="center">
+  <picture>
+    <source srcset="https://skillicons.dev/icons?i=js%2Chtml%2Ccss%2Cjs%2Csvg%2Castro&theme=light" media="(prefers-color-scheme: dark)">
+    <img src="https://skillicons.dev/icons?i=js,html,css,js,svg,astro">
+  </picture>
+</p>
