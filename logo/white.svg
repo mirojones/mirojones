@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 1">
   <svg viewBox="0 0 5 5" fill="#fff">
     <rect height="1">
-      <animate id="top" attributeName="width" values="0;5" begin="200ms" fill="freeze" dur="200ms"/>
+      <animate id="top" attributeName="width" values="0;5" begin="1s" fill="freeze" dur="200ms"/>
     </rect>
     <rect width="1">
       <animate attributeName="height" values="0;2" begin="top.end" fill="freeze" dur="200ms"/>
