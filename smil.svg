@@ -1,20 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 51 5">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect {
+        fill: #fff;
+      }
+    }
+  </style>
   <rect height="1">
-    <animate id="top" begin="200ms" attributeName="width" values="0;5" fill="freeze" dur="200ms"/>
+    <animate id="mTopA" attributeName="width" values="0;5" begin="1s" dur="200ms" fill="freeze"/>
   </rect>
   <rect width="1">
-    <animate attributeName="height" values="0;2" begin="top.end" fill="freeze" dur="200ms"/>
+    <animate id="mLeftA" attributeName="height" values="0;5" begin="mTopA.end" dur="200ms" fill="freeze"/>
   </rect>
   <rect x="2" width="1">
-    <animate attributeName="height" values="0;3" begin="top.end" fill="freeze" dur="200ms"/>
+    <animate id="mMidA" attributeName="height" values="0;5" begin="mLeftA.end" dur="200ms" fill="freeze"/>
   </rect>
   <rect x="4" width="1">
-    <animate id="right" attributeName="height" values="0;5" begin="top.end" fill="freeze" dur="200ms"/>
+    <animate id="mRightA" attributeName="height" values="0;5" begin="mMidA.end" dur="200ms" fill="freeze"/>
   </rect>
-  <rect x="5" y="4" width="5" height="1">
-    <animate id="bottom" attributeName="x" values="5;0" begin="right.end" fill="freeze" dur="200ms"/>
+  
+  <rect x="10" width="1">
+    <animate id="jRightA" attributeName="height" values="0;5" begin="mTopA.begin" dur="200ms" fill="freeze"/>
   </rect>
-  <rect y="5" width="1" height="2">
-    <animate attributeName="y" values="5;3" begin="bottom.end" fill="freeze" dur="200ms"/>
+  <rect x="11" y="4" height="1">
+    <animate id="jBottomA1" attributeName="width" values="0;5" begin="jRightA.end" dur="200ms" fill="freeze"/>
+    <animate id="jBottomA2" attributeName="x" values="11;6" begin="jRightA.end" dur="200ms" fill="freeze"/>
   </rect>
+  <rect x="6" y="5" width="1">
+    <animate id="jLeftA1" attributeName="height" values="0;2" begin="jBottomA1.end" dur="200ms" fill="freeze"/>
+    <animate id="jLeftA2" attributeName="y" values="5;3" begin="jBottomA1.end" dur="200ms" fill="freeze"/>
+  </rect>
+  
+  <!--<animate attributeName="fill" values="#000;magenta" begin="mRightA.end" dur="500ms" fill="freeze"/>-->
 </svg>
