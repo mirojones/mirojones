@@ -1,1 +1,1 @@
-![smil](smil.svg)
+![test](test.svg)
